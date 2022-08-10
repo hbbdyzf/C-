@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	int age;
+	int days;
+	cin >> age;
+	//age = 36;
+	days = age * 365;
+	cout << "Enter your afe: "<< age << endl;
+	cout << "Enter the days: "<< days << endl;
+	return 0;
+}
