@@ -1,0 +1,25 @@
+//编写一个C++程序， 它使用3个用户定义的函数
+#include <iostream>
+using namespace std;
+int func1();
+int func2();
+
+int main()
+{
+
+	cout << func1 << endl;
+	cout << func1 << endl;
+	cout << func2 << endl;
+	cout << func2 << endl;
+	return 0;
+}
+int func1()
+{
+	cout << "Three blind mice" << endl;
+	return 0;
+}
+int func2()
+{
+	cout << "See how they run" << endl;
+	return 0;
+}
