@@ -1,0 +1,19 @@
+//编写一个C++程序， 它使用3个用户定义的函数
+#include <iostream>
+double gn(double);
+using namespace std;
+int main()
+{
+ double tw;
+ cin >> tw;
+ double twdw = gn(tw);
+ cout << "Please enter light year: "<< tw << endl;
+ cout << "4.2 light year is "<< twdw <<" degrees Fahrenheit"<< endl;
+ return 0;
+}
+
+double gn(double tw)
+{
+ double twdw= tw*63240;
+ return twdw;
+}
