@@ -1,0 +1,12 @@
+//长度单位转换
+#include <iostream>
+using namespace std;
+int main()
+{
+	double len;
+	double ma;
+	len = 10.2;
+	ma = len * 220;
+	cout << "ma= " << ma << endl;
+	return 0;
+}
