@@ -1,0 +1,10 @@
+//显示姓名和地址
+#include <iostream>
+using namespace std;
+int main()
+{
+
+	cout << "李刚" << endl;
+	cout << "Henan xinxiang" << endl;
+	return 0;
+}
