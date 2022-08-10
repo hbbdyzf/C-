@@ -1,0 +1,18 @@
+#include <iostream>
+double hs(int);
+using namespace std;
+int main()
+{
+	double sswd;
+	cin >> sswd;
+	double hswd = hs(sswd);
+	cout << "Please enter a Celsius value: "<< sswd << endl;
+	cout << "20 degrees Celsius is "<< hswd <<" degrees Fahrenheit"<< endl;
+	return 0;
+}
+
+double hs(int sswd)
+{
+	double hswd= sswd * 1.8 + 32;
+	return hswd;
+}
