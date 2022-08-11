@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+void func(int);
+
+int main()
+{
+	func(9);
+	int hours;
+	cin >> hours;
+	func(28);
+	int minutes;
+	cin >> minutes;
+	cout << "Time: "<<hours<<":"<< minutes << endl;
+	return 0;
+}
+void func(int n)
+{
+	cout << "Enter the number of hours: " << n << endl;
+}
